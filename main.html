@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="utf-8">
+	    <title>Gaia Board</title>
+	    <meta name="author" content="Michael Pivonka (Codedninja)">
+	
+	    <!-- Le styles -->
+	    <link href="css/bootstrap.css" rel="stylesheet">
+	    <link type="text/css" rel="stylesheet" href="css/subscribe.css" />
+	    <link type="text/css" rel="stylesheet" href="css/userdata.css" />
+	    <link type="text/css" rel="stylesheet" href="css/notifications.css" />
+	    <link type="text/css" rel="stylesheet" href="css/notices.css" />
+	    <link type="text/css" rel="stylesheet" href="css/style.css" />
+  	</head>
+
+  	<body>
+
+	    <div class="navbar">
+	      <div class="navbar-inner">
+	        <div class="container">
+	          <a class="brand" href="main.html">GaiaBoard</a>
+	          <ul class="nav pull-right">
+	            <li>
+	              <a href="options.html">Options</a>
+	            </li>
+	          </ul>
+	        </div>
+	      </div>
+	    </div>
+	
+	    <div class="container">
+			<section class="page">
+				<div class="row">
+					<div class="span5">
+						<div id="subscribed">
+							<div class="page-header">
+								<h3>Subscribed Threads</h3>
+							</div>
+							<table class="table table-striped table-bordered table-condensed">
+								<thead>
+							    	<tr>
+									    <th width="50%">Topic</th>
+									    <th width="10%">Replies</th>
+									    <th width="40%">Last Post</th>
+							    	</tr>
+							  	</thead>
+							  	<tbody>
+								    <tr><td class="text-center" colspan="3">No threads found.</td></tr>
+							  	</tbody>
+							</table>
+						</div>
+						<div id="topics">
+							<div class="page-header">
+								<h3>My Topics</h3>
+							</div>
+							<table class="table table-striped table-bordered table-condensed">
+								<thead>
+									<tr>
+										<th width="65%">Topic</th>
+										<th width="10%">Replies</th>
+										<th width="25%">Last Post</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr><td class="text-center" colspan="3">No threads found.</td></tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="span2" id="userdata">
+						<div class="page-header">
+							<h3>Guest</h3>
+						</div>
+						<div class="avatar">
+							<img src="images/avatar.gif" />
+						</div>
+						<div class="currency well">
+							<span class="gGold">0</span><br />
+							<span class="gCash">0</span>
+						</div>
+					</div>
+					<div class="span5">
+						<div id="notifications">
+							<div class="page-header">
+								<h3>Notifications</h3>
+							</div>
+							<div class="tabbable">
+								<ul id="notifications-tabs" class="nav nav-tabs">
+									<li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+								  	<li><a href="#notices" data-toggle="tab">Notices</a></li>
+								  	<li><a href="#requests" data-toggle="tab">Requests</a></li>
+								  	<li><a href="#announcements" data-toggle="tab">Announcements</a></li>
+								  	<li><a href="#friendstuff" data-toggle="tab">Friend's Stuff</a></li>
+								</ul>
+								<div class="tab-content">
+									<div class="tab-pane active" id="home">
+										<div class="span2">
+											<a href="#" class="pms" title="Private Messages"><span class=" span2">0</span></a>
+											<a href="#" class="requests" title="Requests"><span class=" span2">0</span></a>
+										</div>
+										<div class="span2">
+											<a href="#" class="announcements" title="Announcements"><span class=" span2">0</span></a>
+											<a href="#" class="notices" title="Notices"><span class=" span2">0</span></a>
+										</div>
+									</div>
+									<div class="tab-pane" id="notices">
+										<table class="table table-condensed">
+											<tbody>
+												<tr><td class="text-center">No new notices.</td></tr>
+											</tbody>
+										</table>
+									</div>
+									<div class="tab-pane" id="requests">
+										<table class="table table-condensed">
+											<tbody>
+												<tr><td class="text-center">No new requests.</td></tr>
+											</tbody>
+										</table>
+									</div>
+									<div class="tab-pane" id="announcements">
+										<table class="table table-striped table-bordered table-condensed">
+											<thead>
+												<tr>
+													<th width="60%">Title</th>
+													<th width="20%">Creator</th>
+													<th width="20%">Posted</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr><td class="text-center" colspan="3">No new announcements.</td></tr>
+											</tbody>
+										</table>
+									</div>
+									<div class="tab-pane" id="friendstuff">
+										<table class="table table-condensed">
+											<tbody>
+												<tr><td class="text-center">No friend stuff.</td></tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="privateMessages">
+							<div class="page-header">
+								<h3>Private Messages</h3>
+							</div>
+							<div class="tabbable">
+								<ul class="nav nav-tabs" id="privatemessages-tabs">
+								  <li class="active"><a href="#inbox" data-toggle="tab">Inbox</a></li>
+								  <li><a href="#outbox" data-toggle="tab">Outbox</a></li>
+								  <li><a href="#sentbox" data-toggle="tab">Sent</a></li>
+								  <li><a href="#savebox" data-toggle="tab">Saved</a></li>
+								</ul>
+								<div class="tab-content">
+									<div class="tab-pane active" id="inbox">
+										<table class="table table-striped table-bordered table-condensed">
+											<thead>
+												<tr>
+													<th width="8%"></th>
+													<th width="25%">From</th>
+													<th width="48%">Subject</th>
+													<th width="20%">Created</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr><td class="text-center" colspan="4">No private message found in this mailbox.</td></tr>
+											</tbody>
+										</table>
+									</div>
+									<div class="tab-pane" id="outbox">
+										<table class="table table-striped table-bordered table-condensed">
+											<thead>
+												<tr>
+													<th width="8%"></th>
+													<th width="25%">To</th>
+													<th width="48%">Subject</th>
+													<th width="20%">Created</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr><td class="text-center" colspan="4">No private message found in this mailbox.</td></tr>
+											</tbody>
+										</table>
+									</div>
+									<div class="tab-pane" id="sentbox">
+										<table class="table table-striped table-bordered table-condensed">
+											<thead>
+												<tr>
+													<th width="8%"></th>
+													<th width="25%">To</th>
+													<th width="48%">Subject</th>
+													<th width="20%">Created</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr><td class="text-center" colspan="4">No private message found in this mailbox.</td></tr>
+											</tbody>
+										</table>
+									</div>
+									<div class="tab-pane" id="savebox">
+										<table class="table table-striped table-bordered table-condensed">
+											<thead>
+												<tr>
+													<th width="8%"></th>
+													<th width="25%">From</th>
+													<th width="48%">Subject</th>
+													<th width="20%">Created</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr><td class="text-center" colspan="4">No private message found in this mailbox.</td></tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+	    </div> <!-- /container -->
+	
+	    <!-- Le javascript
+	    ================================================== -->
+	    <!-- Placed at the end of the document so the pages load faster -->
+	    <script src="js/jquery.js"></script>
+	    <script src="js/jquery.tmpl.js"></script>
+	    <script src="js/bootstrap.js"></script>
+	    <script src="js/gaiaonline.js"></script>
+	    <script src="js/main.js"></script>
+  </body>
+</html>

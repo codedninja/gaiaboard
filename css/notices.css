@@ -1,0 +1,59 @@
+.noticeicon {
+  background:transparent url(../images/ic_hd_mygaia_sprite.gif) 0 0 no-repeat;
+  background-position: 0 -250px;
+  height: 16px;
+  width: 12px;
+  padding-right: 8px;
+}
+
+.noticeicon.profile_completeness {
+  background-position: 0 -33px;
+}
+
+.profile.noticeicon, .profile_comment.noticeicon {
+	background-position: 0 -32px;
+}
+.subscribed_thread.noticeicon, .started_thread.noticeicon, .thread_reply.noticeicon, .topic_moved.noticeicon {
+	background-position: 0 -48px;
+}
+
+.wishlist_item.noticeicon, .listing_sold.noticeicon {
+	background-position: 0 -64px;
+}
+
+.friends.noticeicon {
+	background-position: 0 -80px;
+}
+
+.vote.noticeicon {
+	background-position: 0 -96px;
+}
+
+.forum_quote.noticeicon {
+	background-position: 0 -112px;
+}
+
+.announcement.noticeicon {
+	background-position: 0 -128px;
+}
+
+.journal.noticeicon, .journal_comment.noticeicon {
+	background-position: 0 -144px;
+}
+
+.birthday.noticeicon {
+	background-position: 0 -176px;
+}
+
+.arena.noticeicon, .arena_comment.noticeicon {
+	background-position: 0 -192px;
+}
+
+.guild.noticeicon {
+	background-position: 0 -160px;
+}
+
+.aquarium_health.noticeicon {
+	background-position: 0 -208px;
+}
+.text-center{text-align:center !important;}

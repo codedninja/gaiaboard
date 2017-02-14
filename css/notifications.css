@@ -1,0 +1,28 @@
+
+#notifications div#home a {
+	float: left;
+	height: 50px;
+	min-height:50px;
+	font-size:30px;
+}
+
+#notifications div#home span {
+	margin-left:75px;
+	margin-top:15px;
+}
+
+#notifications div#home a.requests {
+	background: url(../images/requests.png) 10px center no-repeat;
+}
+
+#notifications div#home a.announcements {
+	background: url(../images/annoucements.png) 10px center no-repeat;
+}
+
+#notifications div#home a.notices {
+	background: url(../images/notices.png) 10px center no-repeat;
+}
+
+#notifications div#home a.pms {
+	background: url(../images/messages.png) 10px center no-repeat;
+}
